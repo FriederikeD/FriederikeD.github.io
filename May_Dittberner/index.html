@@ -264,7 +264,7 @@
             <p>For appointments, please leave me a message on my voice mail.</p>
             <div id="map" style="width:100%;height:300px"></div>
             <script>
-              function myMap() {
+              function initMap() {
                 var myCenter = new google.maps.LatLng(53.5579774,9.9726371);
                 var mapCanvas = document.getElementById("map");
                 var mapOptions = {center: myCenter, zoom: 15};
@@ -273,7 +273,7 @@
                 marker.setMap(map);
               }
             </script>
-            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap">></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKcMPgJJwHiV_Cvqsnv66zQf62Ue1D7FE&callback=initMap"></script>
           </div>
         </div>
       </div>
